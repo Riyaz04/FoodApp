@@ -63,7 +63,7 @@ const Login = ({ navigation }) => {
         />
       </View>
 
-      <TouchableOpacity style={[btn1, Elevation[12]]}>
+      <TouchableOpacity style={[btn1, Elevation[12]]} onPress={()=> navigation.navigate('Home')} >
         <Text
           style={{
             color: colors.col1,
@@ -147,7 +147,7 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     // width: 280,
     overflow: 'hidden',
-    outlineStyle: 'none',
+    // outlineStyle: 'none',
   },
   user: {
     alignSelf: 'center',

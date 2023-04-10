@@ -236,7 +236,7 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     // width: 280,
     overflow: 'hidden',
-    outlineStyle: 'none',
+    // outlineStyle: 'none',
  
   },
   user: {
